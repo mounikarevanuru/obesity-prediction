@@ -18,6 +18,7 @@ The repository includes comprehensive data exploration, preprocessing steps (han
 
 ## Dataset
 The dataset contains 2,111 records and 17 attributes. Each record represents an individual’s data point and includes features related to their lifestyle, eating habits, and physical conditions.
+https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
 - **Target Variable:**  
   The target variable is **NObesity (Obesity Level)**. It classifies individuals into one of seven categories:
   - Insufficient Weight
