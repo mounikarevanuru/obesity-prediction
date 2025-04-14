@@ -116,7 +116,7 @@ The project leverages scikit-learn's pipeline and ColumnTransformer to streamlin
       - **Numeric Pipeline**
           - Imputer: Handles missing values using the median strategy.
        - **Categorical Pipeline:**
-          - Imputer: Fills missing values using the most frequent strategy.
+          - Imputer: Fills missing values using the constant strategy, i.e. 'missing'.
           - Encoder: Uses OneHotEncoder for nominal categorical variables, and OrdinalEncoder for ordinal variables.
     - **Model Intergrations:**
       Logistic Regression, SVM (RBF kernel), Decision Trees are embedded into the pipeline to ensure consistent preprocessing across models.
