@@ -1,4 +1,4 @@
-# Obesity Type Prediction
+# Obesity Type Classification
 
 ## Introduction
 This project addresses the critical challenge of obesity classification by predicting obesity levels using machine learning. Obesity is a global public health issue that significantly increases the risk of chronic diseases such as diabetes, cardiovascular conditions, and certain cancers. Early prediction of obesity levels can facilitate timely interventions and promote healthier lifestyles, ultimately reducing the burden on healthcare systems.
