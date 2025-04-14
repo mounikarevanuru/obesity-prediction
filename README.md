@@ -3,7 +3,7 @@
 ## Introduction
 This project addresses the critical challenge of obesity classification by predicting obesity levels using machine learning. Obesity is a global public health issue that significantly increases the risk of chronic diseases such as diabetes, cardiovascular conditions, and certain cancers. Early prediction of obesity levels can facilitate timely interventions and promote healthier lifestyles, ultimately reducing the burden on healthcare systems.
 The dataset comprises a variety of demographic and lifestyle features including gender, age, height, weight, family history of overweight, dietary habits, physical activity, and more. By leveraging these features, the project aims to accurately classify individuals into different obesity categories.
-To achieve this, we will implement and compare several classification algorithms:
+To achieve this, we will implement and compare three classification algorithms:
 - **Logistic Regression**
 - **Support Vector Machines (SVM)**
 - **Decision Trees**
@@ -40,8 +40,7 @@ The table below shows the original columns as named in the raw dataset, their ro
 | **FAF**                           | Feature   | Continuous      | How often do you have physical activity?                                                                                                |
 | **TUE**                           | Feature   | Integer         | How much time do you use technological devices (e.g., cell phone, videogames, television, computer)?                                    |
 | **CALC**                          | Feature   | Categorical     | How often do you drink alcohol?                                                                                                         |
-| **MTRANS**                        | Feature   | Categorical     | Which transportation do you usually use?                                                                                                |
-| **NObeyesdad**                    | Target    | Categorical     | Obesity level (target variable).                                                                                                         |
+| **MTRANS**                        | Feature   | Categorical     | Which transportation do you usually use?                                                                                                        
 
 - **Target Variable:**  
   The target variable is **NObesity (Obesity Level)**. It classifies individuals into one of seven categories:
@@ -116,7 +115,6 @@ The project leverages scikit-learn's pipeline and ColumnTransformer to streamlin
     - **Preprocessor:**
       - **Numeric Pipeline**
           - Imputer: Handles missing values using the median strategy.
-          - StandardScaler: Applied to continuous variables (note that in some experiments, we remove scaling to study its impact).
        - **Categorical Pipeline:**
           - Imputer: Fills missing values using the most frequent strategy.
           - Encoder: Uses OneHotEncoder for nominal categorical variables, and OrdinalEncoder for ordinal variables.
