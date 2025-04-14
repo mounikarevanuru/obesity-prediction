@@ -162,7 +162,7 @@ Below is a table summarizing the experiments, with model accuracies expressed as
 
 - **Adding Synthetic Noise (Experiment 4):**  
   - **SVM** improved to 93.8% and **Logistic Regression** maintained 91.3%, indicating that these models can remain robust when slight perturbations are introduced.  
-  - **Decision Tree** achieved 100% accuracy under synthetic noise, suggesting it may be overfitting on the specific noise patterns due to its high flexibility.
+  - **Decision Tree** achieved 100% accuracy under synthetic noise.
 
 ## Best Model and Rationale
 
