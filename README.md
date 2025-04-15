@@ -130,9 +130,9 @@ Below is a table summarizing the experiments, with model accuracies expressed as
 | **Baseline**                                                      | 92.7%                   | 74.7%     | 94.1%             |
 | **Experiment 1 – Feature Engineering: Scaling Features**          | 86.5%                   | 90.5%     | 94.8%             |
 | **Experiment 2 – Polynomial Features**                            | 93.4%                   | 86.3%     | 92.4%             |
-| **Experiment 2 – Polynomial Features + Derived Column (BMI)**       | 96.0%                   | 89.6%     | 97.2%             |
+| **Experiment 2 – Polynomial Features + Derived Column (BMI)**     | 96.0%                   | 89.6%     | 97.2%             |
 | **Experiment 3 – PCA for Dimensionality Reduction**               | 91.3%                   | 91.0%     | 90.3%             |
-| **Experiment 4 – Adding Synthetic Noise**                         | 91.3%                   | 93.8%     | 100.0%            |
+| **Experiment 4 – Adding Synthetic Noise**                         | 92.8%                   | 80.0%     | 100.0%            |
 
 ## Results Overview
 
